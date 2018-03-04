@@ -21,8 +21,7 @@ class App extends Component {
             <Container>
             <br/>
             <h2>Marca : {carro.marca}</h2>
-            <h2>Modelo : {carro.modelo}</h2>
-            <h2>Modelo Carro: {carro.modelo}</h2>
+            <h2>Modelo: {carro.marca+" "+carro.modelo}</h2>
             <h2>Linea: {carro.linea}</h2>
             <h2>traccion: {carro.traccion}</h2>
             <h2>Numero Puertas: {carro.puertas}</h2>
